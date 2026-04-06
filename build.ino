@@ -14,7 +14,7 @@
 MFRC522_I2C rfid(RFID_I2C_ADDR, -1);
 
 // ── Secret ───────────────────────────────────────────────────────────────────
-static const char* HMAC_KEY = "cookedcokeco82";
+static const char* HMAC_KEY = "a_secret_key_replace_me123";
 
 // ── Card types ────────────────────────────────────────────────────────────────
 #define TYPE_COUNT 3
